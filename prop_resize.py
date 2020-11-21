@@ -55,7 +55,7 @@ def propation_resize_dir(scr_folder,dest_folder , percentage,w_per,h_per):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--scr_folder',default = 'G:\EPAi\epai_session11\modified_images', help='source folder ')
+    parser.add_argument('--scr_folder',default = './modified_images', help='source folder ')
     parser.add_argument('--dest_folder',default = 'new' , help='destination folder ')
     parser.add_argument('--res_p',default = 0 , help='percentage ')
     parser.add_argument('--res_w',default = 0 , help='res_w ')
